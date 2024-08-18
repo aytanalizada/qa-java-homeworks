@@ -80,7 +80,7 @@ public class Homework15 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your code: ");
         int number = scanner.nextInt();
-        for (int i = 0; i <= number; i++) {
+        for (int i = 1; i <= number; i++) {
             for (int j = 1; j <= number; j++) {
                 System.out.print(" * ");
             }
