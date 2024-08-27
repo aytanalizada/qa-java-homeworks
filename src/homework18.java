@@ -1,15 +1,6 @@
 public class homework18 {
 
-
-    public static void main(String[] args) {
-        IncomeCalculator incomeCalculator = new IncomeCalculator(300, 150);
-        System.out.println("Monthly income: " + incomeCalculator.getMonthly());
-        System.out.println("Add: " + incomeCalculator.add());
-        System.out.println("Substraction: " + incomeCalculator.sub());
-        System.out.println("Multiplication: " + incomeCalculator.multi());
-        System.out.println("Division: " + incomeCalculator.division());
     }
-}
 
 class IncomeCalculator {
 
@@ -19,7 +10,7 @@ class IncomeCalculator {
 
     // Method to set the numbers for calculation (Constructor method)
     // This method takes two parameters and assigns them to the attributes num1 and num2
-    public IncomeCalculator(int myNum1, int myNum2) {
+    public void set(int myNum1, int myNum2) {
         num1 = myNum1;
         num2 = myNum2;
     }
